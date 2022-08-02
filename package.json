@@ -8,5 +8,13 @@
     "start": "[ -f env.local.default.sh ] && source env.local.default.sh; ./scripts/register-to-consul.sh; nodemon src/index.js --exec babel-node",
     "update-kobiton-dc": "./scripts/sync-gitmodule.sh kobiton-dc",
     "update-schema": "./scripts/sync-gitmodule.sh schema"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19"
   }
 }
