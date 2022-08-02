@@ -6,6 +6,7 @@
 build
 node_modules
 src/kobiton-dc
+src/schema
 env.local.default.sh
 
 ################################

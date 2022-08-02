@@ -1,0 +1,8 @@
+[submodule "kobiton-dc"]
+	path = kobiton-dc
+	url = git@github.com:Nhattd97/kobiton-dc
+	branch = feature/KOB-29318
+[submodule "schema"]
+	path = schema
+	url = https://github.com/duchnguyen/schema
+	branch = KOB-24995
