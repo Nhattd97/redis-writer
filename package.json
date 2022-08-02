@@ -16,5 +16,11 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.18.10",
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@kobiton/core-node": "^1.95.0",
+    "@kobiton/core-service-new": "^1.550.0",
+    "@kobiton/core-util": "^1.447.0",
+    "lodash": "^4.17.21"
   }
 }
