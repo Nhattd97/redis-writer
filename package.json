@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "[ -f ./scripts/npm-preinstall.sh ] && ./scripts/npm-preinstall.sh",
     "postinstall": "[ -f ./scripts/npm-postinstall.sh ] && ./scripts/npm-postinstall.sh",
-    "start": "[ -f env.local.default.sh ] && source env.local.default.sh; ./scripts/register-to-consul.sh; nodemon src/index.js --exec babel-node",
+    "start": "[ -f env.local.default.sh ] && source env.local.default.sh; nodemon src/index.js --exec babel-node",
     "update-kobiton-dc": "./scripts/sync-gitmodule.sh kobiton-dc",
     "update-schema": "./scripts/sync-gitmodule.sh schema"
   },
